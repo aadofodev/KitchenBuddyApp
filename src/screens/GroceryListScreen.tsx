@@ -40,7 +40,6 @@ export default function GroceryListScreen() {
         renderItem={({ item }) => (
           <View style={styles.listItem}>
             <Text style={styles.itemName}>{item.name}</Text>
-            {/* No button for recently bought, just item name */}
           </View>
         )}
       />

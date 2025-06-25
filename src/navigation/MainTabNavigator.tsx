@@ -5,7 +5,7 @@ import Ionicons from '@expo/vector-icons/Ionicons'; // Import Ionicons for minim
 
 // Import your Stack Navigators (essential for nested navigation)
 import QueryStackNavigator from './QueryStackNavigator'; 
-import AddStackNavigator from './AddStackNavigator'; // Import the AddStackNavigator
+import AddStackNavigator from './AddStackNavigator'; 
 
 // Import your individual screens for other tabs
 import ExpiringSoonScreen from '../screens/ExpiringSoonScreen';

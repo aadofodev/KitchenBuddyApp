@@ -32,7 +32,6 @@ const ExpiringSoonScreen = () => {
 
   const renderItem = ({ item }: { item: Ingredient }) => {
     let detail = "Expires soon";
-    // *** CRITICAL FIX: Removed the explicit type annotation here ***
     let detailStyle: TextStyle = styles.itemDetailsNormal; 
 
     if (item.ripeness?.status === 'ripe/mature') {
